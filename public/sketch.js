@@ -44,6 +44,7 @@ function setup(){
 }
 
 function draw() {
+    clear();
     fill(value);
     let display = touches.length + ' touches';
     text(display, 5, 10);
