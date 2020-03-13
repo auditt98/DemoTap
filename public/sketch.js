@@ -36,6 +36,7 @@ function keyPressed(){
           
 
 function setup(){
+    createCanvas()
     createCanvas(windowWidth, windowHeight)
     boxSize = windowWidth/maxBoxNumber
     gameY = windowHeight - boxSize
